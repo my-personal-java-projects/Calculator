@@ -1,10 +1,10 @@
-# Java Calculator 🧮
+# Java Calculator 
 
 A console-based calculator supporting five arithmetic operations, session history, and graceful error handling. Built to demonstrate clean OOP design, enum-driven logic, exception handling, and comprehensive unit testing with JUnit 5.
 
 ---
 
-## 📋 Project Overview
+## Project Overview
 
 | Detail | Info |
 |---|---|
@@ -16,7 +16,7 @@ A console-based calculator supporting five arithmetic operations, session histor
 
 ---
 
-## ⚙️ Features
+## Features
 
 - Five operators: **+  −  ×  ÷  %**
 - Division and modulo by zero handled gracefully with a clear error message
@@ -27,7 +27,7 @@ A console-based calculator supporting five arithmetic operations, session histor
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 calculator/
@@ -71,7 +71,7 @@ calculator/
 
 ---
 
-## 💬 Usage
+## Usage
 
 ```
 =========================================
@@ -101,7 +101,7 @@ Goodbye!
 
 ---
 
-## 🧪 Running the Tests
+## Running the Tests
 
 ### In IntelliJ
 - Right-click `src/test/java` → **Run 'All Tests'**
@@ -130,7 +130,7 @@ mvn test -Dtest=CalculatorTest#calculate_divideByZero_shouldThrowArithmeticExcep
 
 ---
 
-## 🧱 Class Responsibilities
+## Class Responsibilities
 
 ### `Main`
 Entry point. Creates and starts a `CalculatorUI`. No logic here.
@@ -149,7 +149,7 @@ An enum of the five supported operators. Each value carries its symbol string. `
 
 ---
 
-## 🔑 Key Java Concepts Demonstrated
+## Key Java Concepts Demonstrated
 
 | Concept | Where |
 |---|---|
@@ -163,13 +163,13 @@ An enum of the five supported operators. Each value carries its symbol string. `
 
 ---
 
-## 📐 UML Diagram
+## UML Diagram
 
 See [`docs/uml-diagram.md`](docs/uml-diagram.md)
 
 ---
 
-## 💡 Possible Extensions
+## Possible Extensions
 
 - Support bracket expressions and operator precedence (e.g. `(2 + 3) * 4`)
 - Add square root (`sqrt 9`) and power (`2 ^ 8`) operators
