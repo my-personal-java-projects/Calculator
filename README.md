@@ -12,7 +12,6 @@ A console-based calculator supporting five arithmetic operations, session histor
 | Build Tool | Maven |
 | Testing | JUnit 5 (Jupiter) |
 | Type | Console Application |
-| Author | Your Name |
 
 ---
 
