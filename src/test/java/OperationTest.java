@@ -3,9 +3,9 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 import static org.junit.jupiter.api.Assertions.*;
 
-/**
- * Unit tests for Operation enum.
- */
+//Unit tests for Operation enum.
+
+
 class OperationTest {
 
     @ParameterizedTest(name = "fromSymbol(\"{0}\") should return {1}")

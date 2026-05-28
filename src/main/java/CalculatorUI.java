@@ -1,8 +1,5 @@
 import java.util.Scanner;
 
-/**
- * Console UI for the Calculator. Handles all user interaction.
- */
 public class CalculatorUI {
 
     private final Calculator calculator = new Calculator();

@@ -4,9 +4,8 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 import static org.junit.jupiter.api.Assertions.*;
 
-/**
- * Unit tests for Calculator.
- */
+// Unit tests for Calculator.
+
 class CalculatorTest {
 
     private Calculator calculator;
@@ -16,7 +15,6 @@ class CalculatorTest {
         calculator = new Calculator();
     }
 
-    // ── Arithmetic ───────────────────────────────────────────────────────────
 
     @ParameterizedTest(name = "{0} + {1} = {2}")
     @CsvSource({"10, 5, 15", "0, 0, 0", "-3, 3, 0", "100, 200, 300"})
@@ -53,7 +51,6 @@ class CalculatorTest {
         assertEquals(expected, result.getResult(), 0.0001);
     }
 
-    // ── Division by zero ─────────────────────────────────────────────────────
 
     @Test
     void calculate_divideByZero_shouldThrowArithmeticException() {
@@ -74,7 +71,6 @@ class CalculatorTest {
         assertTrue(ex.getMessage().toLowerCase().contains("zero"));
     }
 
-    // ── History ──────────────────────────────────────────────────────────────
 
     @Test
     void getHistory_initiallyEmpty() {
